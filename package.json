@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "Ethan Shea HTTP API ASSIGNMENT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sundredshadow/http-api-assignment.git"
+  },
+  "author": "Ethan Shea",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Sundredshadow/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/Sundredshadow/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
